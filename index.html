@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luxe Casino — Gaming, Dining & Stay</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <p class="template-badge">Demo layout — placeholder content only</p>
+
+  <header class="header">
+    <nav class="nav">
+      <a href="index.html" class="logo">Luxe <span>Casino</span></a>
+      <button class="nav-toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu">
+        <li class="nav-item has-dropdown">
+          <a href="live-casino.html">Play</a>
+          <ul class="dropdown">
+            <li><a href="live-casino.html">Live Casino</a></li>
+            <li><a href="live-online.html">Live Online Casino</a></li>
+          </ul>
+        </li>
+        <li class="nav-item has-dropdown">
+          <a href="inr-packages.html">Packages</a>
+          <ul class="dropdown">
+            <li><a href="inr-packages.html">INR Packages</a></li>
+            <li><a href="usd-packages.html">USD Packages</a></li>
+          </ul>
+        </li>
+        <li class="nav-item has-dropdown">
+          <a href="events.html">Entertainment</a>
+          <ul class="dropdown">
+            <li><a href="events.html">Events</a></li>
+            <li><a href="dining.html">Dining</a></li>
+            <li><a href="nightlife.html">Nightlife</a></li>
+          </ul>
+        </li>
+        <li class="nav-item has-dropdown">
+          <a href="rewards.html">Rewards</a>
+          <ul class="dropdown">
+            <li><a href="rewards.html">Rewards Program</a></li>
+            <li><a href="vip.html">VIP</a></li>
+            <li><a href="promotions.html">Promotions</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero hero--compact">
+      <div class="hero-media">
+        <div class="hero-bg" role="img" aria-label="Luxury casino atmosphere"></div>
+        <video class="hero-video" autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1596838132731-3301c3fd3637?w=1920">
+          <source src="https://cdn.coverr.co/videos/coverr-golden-casino-chips-and-cards-4697352/4697352-1080p.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-content">
+        <h1 class="hero-title">Memorable Experience</h1>
+        <p class="hero-text">Gaming, dining, nightlife and high-stakes play in one destination.</p>
+        <a href="live-casino.html" class="btn btn-primary">Explore</a>
+      </div>
+    </section>
+
+    <section class="home-nav">
+      <div class="container">
+        <p class="home-nav__overline">Explore</p>
+        <div class="home-nav__grid">
+          <a href="live-casino.html" class="home-nav__card">
+            <span class="home-nav__title">Live Casino</span>
+            <span class="home-nav__desc">Tables, slots & VIP</span>
+          </a>
+          <a href="live-online.html" class="home-nav__card">
+            <span class="home-nav__title">Live Online</span>
+            <span class="home-nav__desc">Play from anywhere</span>
+          </a>
+          <a href="inr-packages.html" class="home-nav__card">
+            <span class="home-nav__title">INR Packages</span>
+            <span class="home-nav__desc">Stays & play credits</span>
+          </a>
+          <a href="usd-packages.html" class="home-nav__card">
+            <span class="home-nav__title">USD Packages</span>
+            <span class="home-nav__desc">International guests</span>
+          </a>
+          <a href="rewards.html" class="home-nav__card">
+            <span class="home-nav__title">Rewards</span>
+            <span class="home-nav__desc">Earn & redeem</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-features">
+      <div class="container">
+        <p class="home-features__overline">Experience</p>
+        <div class="home-features__grid">
+          <article class="home-feature">
+            <h2 class="home-feature__title">Live Casino</h2>
+            <p class="home-feature__text">Table games, slots and a dedicated VIP floor. Operating 24/7.</p>
+            <a href="live-casino.html" class="home-feature__link">Details →</a>
+          </article>
+          <article class="home-feature">
+            <h2 class="home-feature__title">Nightlife & City</h2>
+            <p class="home-feature__text">Bars, lounges and local experiences. Packages available.</p>
+            <a href="nightlife.html" class="home-feature__link">Details →</a>
+          </article>
+          <article class="home-feature">
+            <h2 class="home-feature__title">Luxury Stay</h2>
+            <p class="home-feature__text">Accommodation and partner hotels. Book with your package.</p>
+            <a href="usd-packages.html" class="home-feature__link">Details →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-gallery">
+      <div class="container">
+        <p class="home-gallery__overline">Gallery</p>
+        <div class="gallery-grid gallery-grid--home">
+          <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1596838132731-3301c3fd3637?w=600');"></div>
+          <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600');"></div>
+          <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=600');"></div>
+          <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600');"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-infra" id="infrastructure">
+      <div class="container">
+        <p class="home-infra__overline">Infrastructure & Security</p>
+        <p class="home-infra__lead">Enterprise network, segmentation, surveillance QoS, VPN and high availability.</p>
+        <div class="home-infra__grid">
+          <div class="home-infra__item">
+            <span class="home-infra__label">Segmentation</span>
+            <span class="home-infra__text">Guest, operations and surveillance on separate secure zones.</span>
+          </div>
+          <div class="home-infra__item">
+            <span class="home-infra__label">Surveillance QoS</span>
+            <span class="home-infra__text">Prioritised video for stable, uninterrupted surveillance.</span>
+          </div>
+          <div class="home-infra__item">
+            <span class="home-infra__label">Secure VPN</span>
+            <span class="home-infra__text">Encrypted connectivity between sites, centralised policy.</span>
+          </div>
+          <div class="home-infra__item">
+            <span class="home-infra__label">High Availability</span>
+            <span class="home-infra__text">Redundancy and proactive monitoring for 24/7 uptime.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer footer--home">
+    <div class="container footer__inner">
+      <nav class="footer-links">
+        <a href="nightlife.html">Nightlife</a>
+        <a href="index.html#stay">Stay</a>
+        <a href="live-casino.html">Live Casino</a>
+        <a href="rewards.html">Rewards</a>
+      </nav>
+      <p class="footer-social">Follow <a href="#" class="footer-social__link">#yourcasinohashtag</a></p>
+      <p class="footer-copy">© [Your Casino Name]. Demo layout — placeholder content only.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
